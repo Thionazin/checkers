@@ -99,7 +99,7 @@ public class Checkers extends Panel implements ActionListener{
     {
         endGame = false;
         buttons = new betterButtons[8][8];
-        //mainPanel = new customPanel();
+        mainPanel = new customPanel();
         mainPanel.setLayout(new GridLayout(8,8));
         board = new gameBoard();
         redPieces = 12;
@@ -163,7 +163,7 @@ public class Checkers extends Panel implements ActionListener{
     
     public Checkers()
     {
-        initialize();
+        initializeGame();
     }
         
     
